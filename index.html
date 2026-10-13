@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tharani | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header>
+  <nav class="navbar">
+    <a href="#home" class="logo">Tharani<span>.</span></a>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+      <a
+        href="https://www.linkedin.com/in/tharani-m-8007a9315/"
+        target="_blank"
+        rel="noopener noreferrer">
+        LinkedIn ↗
+      </a>
+    </div>
+  </nav>
+</header>
+
+
+  <main>
+    <section id="home" class="hero">
+      <p class="tag">ASPIRING WEB DEVELOPER</p>
+      <h1>Hi, I'm <span>Tharani</span></h1>
+      <h2>I build websites for the web.</h2>
+      <p class="intro">
+        I am a student passionate about web development,
+        technology, and creating useful digital experiences.
+      </p>
+      <a href="#projects" class="btn">View My Projects</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+       <a href="#resume" class="btn" >Resume</a>
+
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a college student learning web development.
+        I enjoy creating simple, user-friendly websites and
+        improving my programming skills through projects.
+        My goal is to start my career in the IT industry.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Basic JavaScript</span>
+        <span>Python</span>
+        <span>C and C++</span>
+        <span>Responsive Design</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>Personal Portfolio</h3>
+          <p>
+            A responsive personal website built using HTML,
+            CSS and JavaScript, with a validated contact form.
+          </p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+        </article>
+
+        <article class="project-card">
+          <h3>E-Commerce Website</h3>
+          <p>
+            A product showcase concept for a photo frame
+            and fireworks store, with shopping features.
+          </p>
+          <p class="tech">HTML · CSS · JavaScript · Python</p>
+        </article>
+
+      </div>
+    </section>
+
+<!-- Resume Section -->
+<section id="resume" class="section">
+  <h2>My Resume</h2>
+  <p>
+    Download my resume to learn more about my education,
+    technical skills, and projects.
+  </p>
+
+  <a
+    href="resume.pdf"
+    class="btn"
+    download="Tharani_Resume.pdf">
+    Download Resume ↓
+  </a>
+
+  <a
+    href="/Tharani_M_Resume.pdf"
+    class="btn secondary"
+    target="_blank"
+    rel="noopener noreferrer">
+    View Resume ↗
+  </a>
+</section>
+```
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Have an opportunity or project idea? Send me a message.</p>
+
+      <form id="contactForm" novalidate>
+        <label for="name">Your Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+        <small id="nameError" class="error"></small>
+
+        <label for="email">Your Email</label>
+        <input id="email" type="email" placeholder="Enter your email">
+        <small id="emailError" class="error"></small>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5"
+          placeholder="Write your message"></textarea>
+        <small id="messageError" class="error"></small>
+
+        <button type="submit" class="btn">Validate Message</button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+ 
+
+    
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Tharani. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
